@@ -2,9 +2,9 @@ header{
     background-color: lightgray;
     color: whitesmoke;
     text-align: center; 
-    margin-top: 5em;
+    /* margin-top: 5em;
     margin-left: 2em;
-    margin-right: 2em;
+    margin-right: 2em; */
     border-radius: 3em;
     line-height: 5px;
 }
