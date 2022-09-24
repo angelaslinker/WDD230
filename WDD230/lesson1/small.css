@@ -1,0 +1,25 @@
+@media only screen and (max-width: 32.5em) {
+    h1 {
+        font-size: 2.5rem;
+        text-align: left;
+        
+    }
+    h2 {
+        font-size: 2.5rem;
+        text-align: left;
+        padding-right: 5em;
+        }
+    #angela {
+        width: 150px;
+        float: left;
+        margin:10px;
+    }
+    main ul li {
+        font-size: 1.25rem;
+    }
+    footer {
+        font-size: 1.34rem;
+        text-align: left;
+        padding-left: 30px;
+    }
+    }
