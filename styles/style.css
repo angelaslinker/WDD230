@@ -1,12 +1,20 @@
 html {
     line-height: 2;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    justify-items: center;
+    align-items: center;
+    background-color: darkmagenta;
+
 }
 
 body {
-    margin: 0 auto;
+    margin: auto;
     font-size: 2em;
     line-height: 1em;
     width: 750px;
+
 }
 
 main a {
