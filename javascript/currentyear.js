@@ -1,5 +1,5 @@
-function year() {
-    let d = new Date();
-    let b = d.getFullYear();
-    document.getElementById("currentyear").innerHTML = b;
-}
+
+let date = new Date();
+
+document.getElementById("currentYear").innerHTML = date.getFullYear()
+
