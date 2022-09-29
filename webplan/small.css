@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Asul&family=Neuton&family=Work+Sans&display=swap');
+
+:root {
+    font-family: 'Inter Tight', sans-serif;
+    --color-dark1: #1b1719;
+    --color-dark2: #393d39;
+    --color-light1: #3f5843;
+    --color-light2: #66967d;
+    --color-accent3: #d4d6d5;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--color-dark1);
+    margin: 0 auto;
+    width: 92vw;
+    font-family: 'Source Sans Pro', sans-serif;;
+    color: var(--color-dark1);
+}
+
+header,
+footer {
+    background-color: var(--color-light1);
+    padding: 10px;
+    text-align: center;
+}
+
+header img {
+    width: 40vw;
+}
+
+header .page-header h1 {
+    font-family: var(--font-title);
+    margin: 0;
+    color: var(--color-dark1);
+}
+
+nav {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    background-color: var(--color-light1);
+}
+nav ul {
+    margin: 15px 0;
+    padding: 0;
+}
+
+nav ul li {
+    list-style: none;
+    text-align: center;
+    padding: 8px;
+    font-family: var(--font-title);
+    font-size: 1.25rem;
+}
+
+nav a,
+footer a {
+    text-decoration: none;
+    color: var(--color-dark1);
+}
+
+nav a:hover,
+footer a:hover {
+    color: var(--color-accent3);
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+main {
+    background-color: var(--color-dark2);
+    padding: 1.5rem;
+}
+
+h2 {
+    font-family: var(--font-secondary-title);
+    margin: 0;
+}
+
+p {
+    margin: 6px 0 0 0;
+    font-size: 20px;
+}
+
+main section {
+    box-sizing: border-box;
+    border: var(--color-accent3) solid 5px;
+    background-color: var(--color-light2);
+    padding: 15px;
+    margin: 15px 0;
+    border-radius: 0.5rem;
+}
+
+#logo-image {
+    text-align: center;
+}
+
+main section img {
+    width: 45vw;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+#font1{
+    font-family: 'Inter Tight', sans-serif;
+}
+#font2{
+    font-family: 'Source Sans Pro', sans-serif;;
+}
