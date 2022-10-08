@@ -1,0 +1,18 @@
+@media only screen and (min-width: 992px){
+    nav ul li a {
+        padding: .5rem 1rem;
+    }
+        
+    main {
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 1fr 1fr;
+    }
+    .eventInformation{
+        grid-column: 1/2;
+    }
+    .highlights2 {
+        grid-column: 1/3;
+        
+    }
+}

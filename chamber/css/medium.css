@@ -1,0 +1,14 @@
+@media only screen and (min-width: 768px) {
+    button {
+        display: none;
+    }
+    nav ul#primaryNav{
+        display: flex;
+        margin: 2vw;
+    }
+    nav ul li a {
+        border: none;
+
+    }
+
+}
