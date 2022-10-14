@@ -1,19 +1,18 @@
 @media only screen and (min-width: 10rem) {
-    main {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-gap: 20px;
-        width: 95%;
-        margin: 20px auto;
-        font-family: Century, sans-serif;
-    }
+
+
 
     header{
         background-color: lightgray;
         color: whitesmoke;
         text-align: center; 
         border-radius: 3em;
-        width: 100%;
+        /* width: 100%; */
+
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: center;
         /* padding-left: 40px; */
     }
     h1 {
@@ -24,7 +23,8 @@
     }
     h2 {
         padding-bottom: 1em;
-        line-height: 5px;
+        padding-right: 2em;
+        line-height: 40px;
         font-family: Arial, Helvetica, sans-serif;
         font-family: Century, sans-serif;
 
@@ -37,10 +37,25 @@
         border-radius: 2em;
         width: 100%;
         padding-left: 50px;
-    }
-    
-    section{
         text-align: center;
-        margin: 1em;
     }
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+
+    section {
+        padding: 5em;
+        text-align: center;
+        margin: 2em;
+        background-color: lavender;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+
 }
