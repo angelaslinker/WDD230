@@ -68,12 +68,13 @@ hr {
 footer {
     font-size: 1em;
     background-color: #b1a6a4;
-    color:whitesmoke;
+    color: black;
     text-align: center;
     padding: .5em;
 }
 
 footer a {
     color: whitesmoke;
+    
 }
 
