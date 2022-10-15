@@ -23,6 +23,8 @@ footer {
     background-color: var(--color-light1);
     padding: 10px;
     text-align: center;
+    color: black;
+    
 }
 
 header img {
