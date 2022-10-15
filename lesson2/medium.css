@@ -1,22 +1,23 @@
 
 @media only screen and (min-width: 768px) {
 
-    html{
+
+     main {
         display: grid;
+        grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-template-areas:
-        "header header"
-        "content1 content2"
-        "content3 content3"
-        "footer footer";
     }
-    .section3 {
-        grid-row: 3/4;
+
+    .alo{
+        grid-column: 1/2;
+        margin: 20px;
+    }
+    .glossier{
+        grid-column: 2/3;
+        margin: 20px;
+    }
+    .rhode{
         grid-column: 1/3;
-        display: flex;
-        justify-items: center;
-        align-items: center;
     }
-    
+
 }
