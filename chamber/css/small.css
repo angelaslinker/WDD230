@@ -104,4 +104,16 @@ section {
     border-radius: 2em;
     font-family: Arial, Helvetica, sans-serif;
 }
+
+#meeting {
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgba(37, 62, 35, 0.3);
+    text-align: center;
+    margin: 2em;
+    border-radius: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+    font-size: large;
+}
 }
