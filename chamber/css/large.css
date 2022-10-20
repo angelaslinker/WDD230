@@ -8,10 +8,14 @@
         grid-template-rows: 1fr;
         grid-template-columns: 1fr 1fr;
     }
-    .eventInformation{
+    .eventInformation, .news{
         grid-column: 1/2;
     }
-    .highlights2 {
+    .weather{
+        grid-column: 2/3;
+    }
+
+    .highlights2, .hero {
         grid-column: 1/3;
         
     }
