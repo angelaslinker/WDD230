@@ -11,5 +11,20 @@
 
     }
 
+    .small {
+        display: none;
+    }
+    .large {
+        display: none;
+    }
+    .medium{
+        display: inline-block;
+        position: absolute;
+        top: 50%;
+        left: 10%;
+        background-color: white;
+        max-width: 100%;
+    }
+
 
 }

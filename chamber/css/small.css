@@ -67,7 +67,7 @@ nav ul li.active a {
     color: #fff;
 }
 
-nav ul li a:hover {
+nav ul li a:hover, .join a:hover {
     background-color: rgba(0,0,0,.3);
 }
 
@@ -116,4 +116,37 @@ section {
     font-style: oblique;
     font-size: large;
 }
+.shops{
+    max-width: 10em;
+}
+
+
+.heroImage{
+    max-width: 100%;
+    position: relative;
+}
+
+.image-container{
+    position: relative;
+    text-align: center;
+}
+.small {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: white;
+    max-width: 100%;
+
+  }
+
+  .medium {
+    display: none;
+  }
+
+  .large{
+    display: none;
+  }
+
+
 }
