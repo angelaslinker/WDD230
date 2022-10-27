@@ -1,0 +1,25 @@
+main {
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+    background-color: lightblue;
+}
+
+
+
+div{
+    display: flex;
+    flex-direction: column;
+}
+img {
+    max-width: fit-content;
+    align-self: center;
+    padding: 1em;
+}
+
+footer {
+    font-size: 1em;
+    background-color: lightgoldenrodyellow;
+    color: black;
+    text-align: center;
+    padding: .5em;
+}
