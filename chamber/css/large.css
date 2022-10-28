@@ -15,9 +15,10 @@
         grid-column: 2/3;
     }
 
-    .hero, .join {
+    .hero, .join, .images {
         grid-column: 1/3;
     }
+   
 
     .large {
         display: inline-block;
