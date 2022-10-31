@@ -120,10 +120,12 @@ section {
     max-width: 10em;
 }
 
-
-.heroImage{
+.heroSmallImage{
     max-width: 100%;
     position: relative;
+}
+.heroLargeImage, .heroMediumImage{
+    display: none;
 }
 
 .image-container{
@@ -147,6 +149,9 @@ section {
   .large{
     display: none;
   }
+
+
+
 
 
 }

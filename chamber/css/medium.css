@@ -25,6 +25,10 @@
         background-color: white;
         max-width: 100%;
     }
+    .heroMediumImage{
+        max-width: 100%;
+        position: relative;
+    }
 
 
 }

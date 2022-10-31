@@ -36,4 +36,8 @@
     .medium {
         display: none;
     }
+    .heroLargeImage{
+        max-width: 100%;
+        position: relative;
+    }
 }
