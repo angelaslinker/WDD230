@@ -30,12 +30,28 @@ html{
     background-color: #d4d6d5;
 }
 
-h1{
+h1, legend{
     color: #1b1719;
     text-align: center;
     font-size: 2em;
     margin-right: 1em;
 
+}
+
+.button {
+    display: block;
+    margin: auto;
+    margin-top: 1rem;
+    
+}
+
+.application{
+    display: block;
+    margin-top: 2rem;
+}
+
+.commentsBox{
+    align-content: center;
 }
 
 button {
@@ -96,7 +112,7 @@ main {
     flex-direction: column;
 }
 
-section {
+section, .form {
     padding: 5em;
     text-align: center;
     margin: 2em;

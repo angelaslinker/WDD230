@@ -1,0 +1,37 @@
+body {
+    width: 120%;
+    height: 100%;
+    display: grid;
+    position: absolute;
+    align-items: center;
+    justify-items: center;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+}
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #5a344e;
+}
+
+table * {
+    padding: 1rem;
+}
+
+thead, tfoot {
+    background-color: #765276;
+}
+thead {
+    font-size: 3rem;
+}
+
+tbody tr {
+    background-color: #a798a8;
+}
+tbody tr:nth-child(even) {
+    background-color: #fcdbf5;
+}
+tfoot {
+    font-size: 1rem;
+}

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1">
+        <title>WDD 230 Chamber Home Page | Angela Slinker | BYU Idaho </title>
+        <meta name="description" content="Week one portal page assignment">
+        <link rel="stylesheet" href="css/small.css">
+        <link rel="stylesheet" href="css/medium.css">
+        <link rel="stylesheet" href="css/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="headerLogo" src="images/logo.webp" alt="Chamber Logo">
+            <h1>Chamber Home Page</h1>
+
+
+        <nav>
+    <button id="hamburgerBtn"><span>&#9776;</span></button>
+                <ul id="primaryNav">
+                    <li><a href="index.html">Home</a></li>
+                    <li class="updates"><a href="#">Updates</a></li>
+                    <li><a href="/discover/discover.html">Discover</a></li>
+                    <li><a href="join.html">Join</a></li>
+                </ul>
+        </nav>
+        <a href="https://www.instagram.com">
+            <img id="instagram" src="images/instagram.png" alt="Instagram Link">
+        </a>
+        <a href="https://www.youtube.com">
+            <img id="youtube" src="images/youtube.png" alt="Youtube Link">
+        </a>
+        </header>
+        <div id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
+        <main>
+            <h1>Join The Chamber Now</h1>
+            <hr>
+                    <!--CONTACT FORM-->
+            
+                    <form method="get" action="thankyou.html">
+            
+                        <fieldset class="form">
+            
+                            <legend>Applicant Information</legend>
+                            <!--full name-->
+                            <label class="application" for="name">Full Name
+                                <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+            
+                            <!--email-->
+                            <label class="application" for="mail">E-mail Address
+                                <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
+            
+            
+                            <!--phone number-->
+                            <label class="application" for="phone">Phone Number
+                                <input class="box" type="tel" id="phone" name="user_phone" placeholder="###-###-####"
+                                    required></label>
+            
+            
+                            <!--zip code-->
+                            <label class="application" for="zip">ZIP Code
+                                <input class="box" type="number" id="zip" name="zip_code" required></label>
+            
+                        </fieldset>
+            
+            
+            
+                        <!--storm -->
+                        <fieldset class="form">
+                            <legend>Business Information</legend>
+            
+                            <!--storm type-->
+                            <label class="application" for="business-name">Business Name
+                                <input class="box" list="business-name" id="business-name" name="business-name"></label>
+                            
+            
+            
+                            <!--storm severity-->
+                            <!--RANGE-->
+                           
+            
+                            <!--select region-->
+                            <label class="application">Memberships
+                                <select class="membership" name="membership" onchange="selectResponse()">
+                                    <option value="select" disabled selected>Select Membership</option>
+                                    <option value="Preston">NP Membership</option>
+                                    <option value="Soda Springs">Bronze Membership</option>
+                                    <option value="Soda Springs">Silver Membership</option>
+                                    <option value="Fish Haven">Gold Membership</option>
+                                </select></label>
+                                
+
+                                <label class="application"></label>
+                                <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea>
+
+                                <input class="button" type="submit" value="Submit" action="thankyou.html">
+            
+                        </fieldset>
+
+                    </form>
+                    <!--end contact form-->
+            
+                
+                </main>
+                <footer>
+            <div>
+                <section>
+                    <img id="footerLogo" src="images/logo.webp" alt="Chamber Logo">
+                    <h2>Contact Information</h2>
+                    <p>Provo, Utah 84604</p>
+                    <p>801-877-5887</p>
+                
+                 © 
+                <span id="currentYear"></span>
+                 | Angela Slinker | Utah |
+                 <span id="lastUpdated" ></span>
+                 |
+                </section>
+            </div>
+            
+
+        </footer>
+    <script src="./js/date.js"></script>
+    <script src="./js/scripts.js"></script>    
+    <script src="./js/windchill.js"></script>
+    </body>
+</html>
