@@ -15,7 +15,7 @@
         grid-column: 2/3;
     }
 
-    .hero, .join, .images, form, h1, .thankyou{
+    .hero, .join, .images, .form, h1, .thankyou{
         grid-column: 1/3;
     }
    
