@@ -40,7 +40,7 @@
             <hr>
                     <!--CONTACT FORM-->
             
-                    <form method="get" action="thankyou.html">
+                    <!-- <form method="get" action="thankyou.html"> -->
             
                         <fieldset class="form">
             
@@ -74,7 +74,7 @@
             
                             <!--storm type-->
                             <label class="application" for="business-name">Business Name
-                                <input class="box" list="business-name" id="business-name" name="business-name"></label>
+                                <input class="box" id="business-name" name="business-name"></label>
                             
             
             
@@ -86,25 +86,28 @@
                             <label class="application">Memberships
                                 <select class="membership" name="membership" onchange="selectResponse()">
                                     <option value="select" disabled selected>Select Membership</option>
-                                    <option value="Preston">NP Membership</option>
-                                    <option value="Soda Springs">Bronze Membership</option>
-                                    <option value="Soda Springs">Silver Membership</option>
-                                    <option value="Fish Haven">Gold Membership</option>
+                                    <option value="NP Membership">NP Membership</option>
+                                    <option value="Bronze Membership">Bronze Membership</option>
+                                    <option value="Silver Membership">Silver Membership</option>
+                                    <option value="Gold Membership">Gold Membership</option>
                                 </select></label>
                                 
 
                                 <label class="application"></label>
                                 <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea>
+                                <!-- <input class="button" type="submit" value="Submit" action="thankyou.html"> -->
 
-                                <input class="button" type="submit" value="Submit" action="thankyou.html">
+                                <form action="thankyou.html">
+                                    <input type="submit" value="Submit">
+                                </form>
+
+                            </fieldset>
+                    </main>
+                                
             
-                        </fieldset>
-
-                    </form>
                     <!--end contact form-->
             
                 
-                </main>
                 <footer>
             <div>
                 <section>
