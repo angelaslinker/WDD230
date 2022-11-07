@@ -1,0 +1,64 @@
+@media only screen and (min-width: 10rem){
+    
+    html {
+        background-color: rgb(207, 232, 241);
+    }
+    img{
+        max-width: 80%;
+    }
+    
+    h1{
+        text-align: center;
+
+    }
+    section{
+        background-color: rgb(25, 76, 95);
+        margin: .25em;
+        text-align: center;
+        color:rgb(220, 230, 233);
+    }
+    .cards{
+        display: grid;
+        grid-template: auto / auto;
+        justify-content: center;
+
+}
+    footer{
+        font-size: 2em;
+        margin: 2rem;
+        text-align: center;
+
+    }
+
+
+}
+
+
+
+@media (min-width: 992px){
+
+    h1{
+        text-align: center;
+        margin: 1em;
+
+    }
+
+
+    h2, p, img {
+        margin: .5rem;
+        text-align: center;
+        color:rgb(220, 230, 233);
+    }
+
+.cards{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+
+section{
+    background-color: rgb(25, 76, 95);
+    margin: .25em;
+}
+}
+
+
