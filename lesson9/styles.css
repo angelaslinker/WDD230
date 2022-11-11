@@ -1,0 +1,187 @@
+@media only screen and (min-width: 10rem) {
+
+    html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+    
+    * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+    
+    #headerLogo, #footerLogo {
+        max-width: 30%;
+        height: auto;
+        margin: .5em;
+    }
+    
+    #instagram, #youtube {
+        max-width: 20%;
+        margin-left: 1em;
+    
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgba(37, 62, 35, 0.3);
+        font-family: Century, sans-serif;
+    
+    }
+    
+    html{
+        background-color: #d4d6d5;
+    }
+    
+    h1{
+        color: #1b1719;
+        text-align: center;
+        font-size: 2em;
+        margin-right: 1em;
+    
+    }
+    
+    .button {
+        display: block;
+        margin: auto;
+        margin-top: 1rem;
+        
+    }
+    
+    
+    button {
+        margin: .2rem 2vw;
+        background-color: transparent;
+        border: none;
+        font-size: 2rem;
+        color: #555;
+    }
+    nav {
+        background-color: #eee;
+    }
+    nav ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    nav ul li a {
+        display: block;
+        padding: .8rem 2vw;
+        text-decoration: none;
+        color: #333;
+        border-top: 1px solid rgba(0,0,0,.5);
+    }
+    
+    nav ul li.active a {
+        background-color: rgba(0,0,0,.2);
+        color: #fff;
+    }
+    
+    nav ul li a:hover, .join a:hover {
+        background-color: rgba(0,0,0,.3);
+    }
+    
+    nav ul {
+        display:none;
+    }
+    nav ul.open {
+        display:block;
+    }
+    
+    #haburgerBtn span:nth-child(1) {
+        display: block;
+    }
+    #haburgerBtn span:nth-child(2) {
+        display: none;
+    }
+    #haburgerBtn.open span:nth-child(1) {
+        display: none;
+    }
+    #haburgerBtn.open span:nth-child(2) {
+        display: block;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    section {
+        padding: 5em;
+        text-align: center;
+        margin: 2em;
+        background-color: rgba(37, 62, 35, 0.3);
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #meeting {
+        flex-direction: row;
+        justify-content: center;
+        background-color: rgba(37, 62, 35, 0.3);
+        text-align: center;
+        margin: 2em;
+        border-radius: 2em;
+        font-family: Arial, Helvetica, sans-serif;
+        font-style: oblique;
+        font-size: large;
+    }
+    .shops{
+        max-width: 1em;
+    }
+
+    img {
+        width: 100%;
+    }
+    
+    
+    
+    }
+
+
+    @media only screen and (min-width: 768px) {
+        button {
+            display: none;
+        }
+        nav ul#primaryNav{
+            display: flex;
+            margin: 2vw;
+        }
+        nav ul li a {
+            border: none;
+    
+        }
+
+    
+    
+    }
+    
+
+    @media only screen and (min-width: 992px){
+        nav ul li a {
+            padding: .5rem 1rem;
+        }
+            
+        img {
+            width: 35%;
+        }
+        main {
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+
+
+        .eventInformation{
+            grid-column: 1/2;
+        }
+
+        h1 {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+
+        }
+    
+
+       
+    }

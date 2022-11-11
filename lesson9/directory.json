@@ -1,0 +1,77 @@
+{
+    "businesses": [
+      {
+        "name": "Soel Boutique",
+        "address": "4801 N University Ave #430, Provo, UT 84604",
+        "phoneNumber": "(801) 426-9644",
+        "website": "http://www.soelboutique.com",
+        "membership": "Basic Membership",
+        "imageurl": "https://i0.wp.com/shopsatriverwoods.com/wp-content/uploads/2019/10/WEB-PICS-soel-boutique-03.jpg?resize=833%2C1250&ssl=1"
+      },
+      {
+        "name": "Clad and Cloth",
+        "address": "48 W 100 N, Provo, UT 84601",
+        "phoneNumber": null,
+        "website": "https://cladandcloth.com",
+        "membership": "Basic Membership",
+        "imageurl": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8t1WZMrMWDjOrlkV4mvdS5k4APoIWK5b9Z1OEvGbIYu83_s6AwxCuKXfNTpj6L6z3qok&usqp=CAU"
+      },
+      {
+        "name": "Called to Surf",
+        "address": "4801 N University Ave #210, Provo, UT 84604",
+        "phoneNumber": "(801) 224-8400",
+        "website": "https://calledtosurf.com",
+        "membership": "Bronze Membership",
+        "imageurl": "https://utahvalley360.com/wp-content/uploads/2021/05/called-to-surg.jpg"
+      },
+      {
+        "name": "Blush Lane",
+        "address": "Online Boutique",
+        "phoneNumber": null,
+        "website": "https://shopblushlane.com",
+        "membership": "Bronze Membership",
+        "imageurl": "https://cdn.shopify.com/s/files/1/1664/1661/files/logo_01_black.png?height=628&pad_color=fff&v=1634697683&width=1200"
+      },
+      {
+        "name": "DM Fashion",
+        "address": "957 W 150 N St STE D, Lindon, UT 84042",
+        "phoneNumber": null,
+        "website": "http://www.dmfashion.com",
+        "membership": "Silver Membership",
+        "imageurl": "https://cdn.shopify.com/s/files/1/1204/7442/files/Option_3_210x@2x.png?v=1614350454"
+      },
+      {
+        "name": "Lus Resale Boutique",
+        "address": "360 S State St #156, Orem, UT 84058",
+        "phoneNumber": "(801) 225-5300",
+        "website": "http://www.lusboutique-com.myshopify.com",
+        "membership": "Silver Membership",
+        "imageurl": "https://s3-media0.fl.yelpcdn.com/bphoto/uQwrZvF1QYPQG_g47FqzcQ/348s.jpg"
+      },
+      {
+        "name": "Piper and Scoot",
+        "address": "892 E 12300 S, Draper, UT 84020",
+        "phoneNumber": "(801) 790-0065",
+        "website": "http://www.piperandscoot.com",
+        "membership": "Silver Membership",
+        "imageurl": "https://cdn.shopify.com/s/files/1/0684/0407/files/P_SVector-Logos-01_400x.png?v=1613736596"
+      },
+      {
+        "name": "Mia's Boutique",
+        "address": "589 E 1000th N Spanish Fork, UT 84660",
+        "phoneNumber": "(801) 850-3988",
+        "website": "https://m.facebook.com/fashionmiasboutique/",
+        "membership": "Gold Membership",
+        "imageurl": "https://i.etsystatic.com/isla/7d6cff/46403285/isla_fullxfull.46403285_avm8exu0.jpg?version=0"
+      },
+      {
+        "name": "Sew Vintage",
+        "address": "744 S State St Orem, UT 84058",
+        "phoneNumber": "(385) 223-8969",
+        "website": "http://sewvintagestudio.com",
+        "membership": "Gold Membership",
+        "imageurl": "https://s3-media0.fl.yelpcdn.com/bphoto/roPv20zdM5PxC0pyfFJO1Q/348s.jpg"
+      }
+
+    ]
+}
