@@ -39,4 +39,7 @@
         max-width: 100%;
         position: relative;
     }
+    .weatherConditions{
+        grid-column: 1/3;
+}
 }

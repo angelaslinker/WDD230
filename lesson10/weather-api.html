@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="utf-8">
+        <meta name="vieport" content="width=device-width, initial-scale=1">
+        <title>WDD 230 Chamber Home Page | Angela Slinker | BYU Idaho </title>
+        <meta name="description" content="Week one portal page assignment">
+        <link rel="stylesheet" href="../chamber/css/small.css">
+        <link rel="stylesheet" href="../chamber/css/medium.css">
+        <link rel="stylesheet" href="../chamber/css/large.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"> 
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+        <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <img id="headerLogo" src="../chamber/images/logo.webp" alt="Chamber Logo">
+            <h1>Chamber Home Page</h1>
+
+
+        <nav>
+    <button id="hamburgerBtn"><span>&#9776;</span></button>
+                <ul id="primaryNav">
+                    <li><a href="../chamber/index.html">Home</a></li>
+                    <li class="updates"><a href="../lesson9/directory.html">Directory</a></li>
+                    <li><a href="/discover/discover.html">Discover</a></li>
+                    <li><a href="../chamber/join.html">Join</a></li>
+                </ul>
+        </nav>
+        <a href="https://www.instagram.com">
+            <img id="instagram" src="../chamber/images/instagram.png" alt="Instagram Link">
+        </a>
+        <a href="https://www.youtube.com">
+            <img id="youtube" src="../chamber/images/youtube.png" alt="Youtube Link">
+        </a>
+        </header>
+    <main>
+            
+        <h1>OpenWeatherMap.org API Test</h1>
+        <div class="weatherConditions">
+        <p>The current temperature in Fairbanks, Alaska is <span id="currentTemp"></span> &deg;F</p>
+        <h2>Current Condition Icon</h2>
+        <figure>
+        <img src="" alt="" id="weatherIcon" />
+        <figcaption></figcaption>
+        </figure>
+    </div>
+    </main>
+        <footer>
+            <div>
+                <section>
+                    <!-- <img id="footerLogo" src="../chamber/images/logo.png" alt="Chamber Logo"> -->
+                    <h2>Contact Information</h2>
+                    <p>Provo, Utah 84604</p>
+                    <p>801-877-5887</p>
+                
+                 © 
+                <span id="currentYear"></span>
+                 | Angela Slinker | Utah
+                 <span id="lastUpdated"></span>
+                </section>
+            </div>
+        </footer>
+        <script src="./weatherapi.js"></script>
+    </body>
