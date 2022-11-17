@@ -56,16 +56,19 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec condimentum sit amet libero nec malesuada. Mauris ut nunc ut ante vehicula auctor sit amet eget ipsum. Nullam placerat leo vel augue fermentum, sed vehicula elit porta. Morbi non ipsum placerat, faucibus massa auctor, accumsan orci.</p>
                 </div>
             </section>
-            <section class="weather">
-                <div>
-                    <h3>Provo, Utah</h3>
-                    <p><span id="temp">35</span>&#176;F</p>
-                    <p id="highlow">H: 75&#176; &#160;  L: 54&#176;</p>
-                    <p>Sunny</p>
-                    <p>Wind speed <span id="windspeed">3.6</span>mph</p>
-                    <p>Windchill: <span id="windchill"> </span></p>
-                </div>
-                
+            <section>
+            
+                <h1>OpenWeatherMap.org API Test</h1>
+                <div class="weatherConditions">
+                <p>The current temperature in Provo, Utah is <span id="currentTemp"></span> &deg;F</p>
+                <p>Wind Speed: <span id="windspeed"></span> </p>
+                <p>Windchill: <span id="windchill"></span> </p>
+                <h2>Current Condition Icon</h2>
+                <figure>
+                <img src="" alt="" id="weatherIcon" />
+                <figcaption></figcaption>
+                </figure>
+            </div>
             </section>
             <section class="eventInformation">
                 <div>
@@ -127,6 +130,7 @@
         </footer>
     <script src="./js/date.js"></script>
     <script src="./js/scripts.js"></script>    
-    <script src="./js/windchill.js"></script>
+    <script src="./js/weatherapi.js"></script>
+    <!-- <script src="./js/windchill.js"></script> -->
     </body>
 </html>
