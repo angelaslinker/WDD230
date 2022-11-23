@@ -90,7 +90,7 @@
             
 
                             <label class="application" for="business-name">Business Name
-                                <input class="box" id="business-name" name="business-name" pattern="[- A-Z a-z 0-9]"></label>
+                                <input class="box" id="business-name" name="business-name" pattern="[- A-Z a-z 0-9]" minlength="7"></label>
                             
         
                            
@@ -106,13 +106,12 @@
                                 </select></label>
                                 
 
-                                <label class="application">
-                                <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea></label>
-                                <!-- <input class="button" type="submit" value="Submit" action="thankyou.html"> -->
-                                <label for="html">
+                                <div class="application">
+                                <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea></div>
+                                <!-- <input class="button" type="submit" value="Submit" action="thankyou.html"> --> 
                                     <form action="thankyou.html" method="get">
                                         <input type="submit" value="Submit">
-                                </form></label>
+                                </form>
 
                             </fieldset>
                     </main>
