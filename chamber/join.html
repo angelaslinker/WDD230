@@ -59,11 +59,13 @@
             
                             <legend>Applicant Information</legend>
                             <!--full name-->
-                            <label class="application" for="name">First Name</label>
+                            <label class="application" for="firstName">First Name
                                 <input class="box" type="text" id="firstName" name="user_name" pattern="[A-Z a-z]{5,}" required>
+                            </label>
             
-                            <label class="application" for="name">Last Name</label>
+                            <label class="application" for="lastName">Last Name
                                 <input class="box" type="text" id="lastName" name="user_name" pattern="[A-Z a-z]{5,}" required>
+                            </label>
             
                             <!--email-->
                             <label class="application" for="mail">E-mail Address
@@ -107,11 +109,11 @@
                                 
 
                                 <label class="application" for="message">
-                                <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea></label>
+                                <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea>
                                 <!-- <input class="button" type="submit" value="Submit" action="thankyou.html"> --> 
                                     <form action="thankyou.html" method="get">
                                         <input type="submit" value="Submit">
-                                </form>
+                                </form></label>
 
                             </fieldset>
                     </main>
