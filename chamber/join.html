@@ -36,22 +36,38 @@
         </header>
         <div id="meeting">🤝🏼 Come join us for the chamber meet and greet Wednesday at 7:00 p.m.</div>
         <main>
-            <h1>Join The Chamber Now</h1>
+            <div class="membershipDetails">
+                <h1>Join The Chamber Now</h1>
+                <h2>Membership Options</h2>
+                <h3>Basic Membership</h3>
+                    <p>$10 Per Month</p>
+                    <p>Enjoy Discounted advertising and early access to business events</p>
+                <h3>Bronze Membership</h3>
+                    <p>$25 Per Month</p>
+                    <p>Get limited free advertsising on our site and early access to business events</p>
+                <h3>Silver Membership</h3>
+                    <p>$30 Per Month</p>
+                    <p>Get Limited free advertising on our site and V.I.P access to business events and oppurtunities to grow your business</p>
+                <h3>Gold Membership</h3>
+                    <p>$50 Per Month</p>
+                    <p>Unlimited free advertising on our site, V.I.P access to business events and connections to businesses near you</p>
+        </div>
+
             <hr>
-                    <!--CONTACT FORM-->
-            
-                    <!-- <form method="get" action="thankyou.html"> -->
-            
+
                         <fieldset class="form">
             
                             <legend>Applicant Information</legend>
                             <!--full name-->
-                            <label class="application" for="name">Full Name
-                                <input class="box" type="text" id="name" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+                            <label class="application" for="name">First Name
+                                <input class="box" type="text" id="firstName" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
+            
+                            <label class="application" for="name">Last Name
+                                <input class="box" type="text" id="lastName" name="user_name" pattern="[A-Z a-z]{5,}" required></label>
             
                             <!--email-->
                             <label class="application" for="mail">E-mail Address
-                                <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com"></label>
+                                <input class="box" type="email" id="mail" name="user_email" placeholder="user@email.com" required></label>
             
             
                             <!--phone number-->
@@ -74,7 +90,7 @@
             
 
                             <label class="application" for="business-name">Business Name
-                                <input class="box" id="business-name" name="business-name"></label>
+                                <input class="box" id="business-name" name="business-name" pattern="[- A-Z a-z 0-9]"></label>
                             
         
                            
@@ -94,7 +110,7 @@
                                 <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea>
                                 <!-- <input class="button" type="submit" value="Submit" action="thankyou.html"> -->
 
-                                <form action="thankyou.html">
+                                <form action="thankyou.html" method="get">
                                     <input type="submit" value="Submit">
                                 </form>
 

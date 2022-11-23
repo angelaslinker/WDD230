@@ -29,6 +29,10 @@
         max-width: 100%;
         position: relative;
     }
+    .membershipDetails{
+        display: block;
+        margin-top: 2rem;
+    }
 
 
 }
