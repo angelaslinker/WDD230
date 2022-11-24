@@ -4,6 +4,8 @@
     }
     nav ul#primaryNav{
         display: flex;
+        flex-flow: wrap;
+        flex-flow: row;
         margin: 2vw;
     }
     nav ul li a {

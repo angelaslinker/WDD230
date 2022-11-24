@@ -4,17 +4,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
-#headerLogo, #footerLogo {
-    max-width: 30%;
-    height: auto;
-    margin: .5em;
-}
 
 #instagram, #youtube {
-    max-width: 20%;
+    position: relative;
+    max-width: 25%;
     margin-left: 1em;
-
 }
+
 
 header{
     display: flex;
@@ -24,6 +20,23 @@ header{
     background-color: rgba(37, 62, 35, 0.3);
     font-family: Century, sans-serif;
 
+}
+
+#headerLogo {
+    max-width: 30%;
+    height: auto;
+    margin: .5em;
+    display: flex;
+}
+
+.headerContainer {
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#footerLogo {
+    max-width: 30%;
+    height: auto;
 }
 
 html{
@@ -121,7 +134,7 @@ section, .form, .membershipDetails {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-#meeting {
+#meeting, #todaysDate {
     flex-direction: row;
     justify-content: center;
     background-color: rgba(37, 62, 35, 0.3);
@@ -171,8 +184,6 @@ section, .form, .membershipDetails {
     align-items: center;
 
   }
-
-
 
 
 }
