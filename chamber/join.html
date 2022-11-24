@@ -60,11 +60,11 @@
                             <legend>Applicant Information</legend>
                             <!--full name-->
                             <label class="application" for="firstName">First Name
-                                <input class="box" type="text" id="firstName" name="user_name" pattern="[A-Z a-z]{5,}" required>
+                                <input class="box" type="text" id="firstName" name="user_firstName" pattern="[A-Z a-z]{5,}" required>
                             </label>
             
                             <label class="application" for="lastName">Last Name
-                                <input class="box" type="text" id="lastName" name="user_name" pattern="[A-Z a-z]{5,}" required>
+                                <input class="box" type="text" id="lastName" name="user_lastName" pattern="[A-Z a-z]{5,}" required>
                             </label>
             
                             <!--email-->
@@ -108,12 +108,12 @@
                                 </select></label>
                                 
 
-                                <label for="msg">
+                                <label class="application" for="msg">
                                     <textarea class="commentsBox" id="msg" name="user_message" placeholder="Tell Us More About Your Business"></textarea>
                                 </label>
 
-                                <label class="application" for="submitionnButton">
-                                    <form action="thankyou.html" method="get" id="sumbitionButton">
+                                <label class="application" for="submitionButton">
+                                    <form action="thankyou.html" method="get" id="submitionButton">
                                         <input type="submit" value="Submit">
                                     </form>
                                 </label>
