@@ -100,14 +100,14 @@ main h1 {
 }
 
 main section {
-        object-fit: cover;
+    object-fit: cover;
 }
 
 main section div {
     height: 200px;
 }
 
-main section div {
+main section {
     background-color: #e5e5e5;
     margin: 10px;
     text-align: center;
@@ -144,6 +144,11 @@ footer {
     padding: 10px;
     display: flex;
     flex-direction: column;
+}
+
+#map{
+    display: inline;
+    width: fit-content;
 }
 
 footer img {
@@ -272,6 +277,10 @@ tr td {
     font-size: 3em;
 }
 
+#currentWeather{
+    margin-top: -150px;
+    margin-bottom: -150px;
+}
 
 #dayForecast {
     display: flex;
@@ -292,3 +301,7 @@ tr td {
   #dayForecast span {
     font-weight: bold;
   }
+
+
+
+  

@@ -41,8 +41,7 @@
     }
 
     #weather_top {
-        margin-bottom: -150px;
-        margin-top: -25px;
+        margin-top: -185px;
     }
 
     #join {
@@ -53,11 +52,12 @@
 
     #about {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
+
     #about img {
-        grid-column: 2;
+        grid-column: 3;
         width: 250px;
         margin: auto;
     }
@@ -68,9 +68,15 @@
     }
 
     #contact {
-        grid-column: 3;
-        grid-row: 1;
+        grid-column: 1;
+        grid-row: 3;
         padding-left: .25em;
+        align-items: center;
+
+    }
+
+    #about{
+        display: inline-block
     }
 
     #copyright-large {
@@ -82,4 +88,6 @@
         -webkit-box-shadow: 0 0 10px #ccc;
         box-shadow: 0 0 10px #ccc;
       }
+
+
 }
