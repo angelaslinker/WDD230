@@ -1,0 +1,173 @@
+@media screen and (min-width: 1200px) {
+
+    header {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    nav {
+        margin:auto;
+        grid-column: 2;
+        grid-row: 1;
+    }
+    
+    nav ul {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #hamburger {
+        display: none;
+    }
+
+    nav li {
+        display: block;
+        padding: 20px ;
+    }
+
+
+    #logo {
+        grid-column: 1;
+        margin: auto;
+        grid-row: 1;
+    }
+
+    .socials {
+        display: flex;
+        gap: 10px;
+        grid-column: 3;
+        grid-row: 1;
+        margin: auto;
+    }
+
+    .socials img {
+        width: 40px;
+    }
+
+
+    main {
+        background-color: white;
+        margin: auto;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 2fr 1fr;
+        grid-template-rows: 400px 400px 400px;
+    }
+    
+    main section, main section div {
+        background-color: #e5e5e5;
+        margin: 10px;
+        text-align: center;
+        height: auto;
+    }
+
+    #intro, .form {
+        grid-column: 1/4;
+        grid-row: 1;
+        font-size: large;
+        line-height: 2em;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    #action {
+        grid-column: 2;
+        grid-row: 1/3;
+        height: 661px;
+        
+    }
+
+    #weather {
+        grid-column: 1/4;
+        grid-row: 4;
+
+    }
+
+    #dayForecast{
+        grid-column: 1/4;
+        grid-row: 2;
+    }
+
+    #weather_top {
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+
+    #join {
+        grid-column: 1/4;
+        grid-row: 3;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    button:hover {
+        background-color: #fca311;
+        
+    }
+
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #address, #contact {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        gap: 10px;
+    }
+
+    #address{
+        gap: 75px;
+    }
+
+    #map {
+        grid-column: 2;
+        width: 250px;
+        margin: auto;
+    }
+
+
+    #copyright-large {
+        display: block;
+    }
+
+    .discover div:hover{
+      -moz-box-shadow: 0 0 10px #ccc;
+      -webkit-box-shadow: 0 0 10px #ccc;
+      box-shadow: 0 0 10px #ccc;
+    }
+
+    .join {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 50px;
+    }
+
+    tr td {
+        display: table-cell;
+    }
+
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        padding: 20px;
+    }
+
+    .board {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+    
+}

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="description" content="Bountiful Foods">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/fruit.js"></script>
+    <script defer src="js/hamburger.js"></script>
+    <title>Boutniful Foods</title>
+</head>
+
+<body>
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/berries.webp" alt="Logo"></a>
+        </div>
+        <a href="#" id="hamburger">&#9776;</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <section class="socials">
+            <a href="#"><img src="images/twitter.webp" alt="Facebook"></a>
+            <a href="#"><img src="images/instagram.webp" alt="Instagram"></a>
+            <a href="#"><img src="images/twitter.webp" alt="Youtube"></a>
+        </section>
+
+    </header>
+
+    <section class="date"></section>
+
+    <main class="join">
+        <div class="form">
+            <form method="GET" autocomplete="on">
+                <label for="fname">
+                    First Name
+                    <input type="text" id="fname" name="fname" required>
+                </label>
+
+                <label for="email">
+                    Email
+                    <input type="email" placeholder="johndoe@example.com" id="email" name="email" required>
+                </label>
+
+                <label for="phone">
+                    Phone
+                    <input type="tel" id="phone" name="phone" required>
+                </label>
+
+                <h1>Fruit Selector</h1>
+                <label>Select a fruit:</label>
+                <select id="fruit1"></select>
+                <br>
+                <label>Select another fruit:</label>
+                <select id="fruit2"></select>
+                <br>
+                <label>Select one more fruit:</label>
+                <select id="fruit3"></select>
+                <br>
+                <label for="desc">
+                    Business Description
+                    <textarea name="desc" id="desc"></textarea>
+                </label>
+                <button id="submit">Submit</button>
+
+                <h1 id="sample"></h1>
+                <h2 id="sample2"></h2>
+                <h2 id="sample3"></h2>
+                <h2 id="sample4"></h2>
+                <h2 id="sample5"> </h2>
+                <h2 id="sample6"> </h2>
+                <h2 id="sample7"> </h2>
+                <h2 id="sample8"> </h2>
+                <h2 id="sample9"> </h2>
+
+                
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <section id="about">
+            <img src="images/favicon.ico" alt="Logo">
+            <div id="address">
+                <h3>Visit Us</h3>
+                <p>1802 E POINTE AVE </p>
+                <p>CARLSBAD CA 92008-3774 USA</p>
+            </div>
+            <div id="contact">
+                <h3>Contact info</h3>
+                <p>contact@BountifulFoods.com</p>
+                <p>(800)555-5555</p>
+            </div>
+        </section>
+        <section id="copyright">
+            <p>&copy; <span id="copyrightYear"></span> Bountiful Foods | Angela Slinker | WDD230 Final</p>
+            <p>This page was last modified on <span id="lastModified"></span></p>
+        </section>
+    </footer>
+</body>
+
+</html>

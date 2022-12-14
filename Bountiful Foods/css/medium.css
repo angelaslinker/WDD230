@@ -1,0 +1,85 @@
+@media screen and (min-width: 700px) {
+    #hamburger {
+        margin-right: 100px;
+    }
+
+    .home {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        margin: auto;
+    }
+    
+    main section, main section div {
+        background-color: #e5e5e5;
+        margin: 10px;
+        text-align: center;
+        height: 280px;
+    }
+
+    main section {
+        object-fit: cover;
+        overflow: hidden;
+    }
+
+    nav a {
+        text-align: center;
+    }
+
+    #intro {
+        grid-column: 1;
+        grid-row: 2;
+    }
+
+    #weather {
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+    #dayForecast{
+        grid-column: 2/3;
+        grid-row: 4;
+    }
+
+    #weather_top {
+        margin-bottom: -150px;
+        margin-top: -25px;
+    }
+
+    #join {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+
+    #about {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    #about img {
+        grid-column: 2;
+        width: 250px;
+        margin: auto;
+    }
+
+    #address {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    #contact {
+        grid-column: 3;
+        grid-row: 1;
+        padding-left: .25em;
+    }
+
+    #copyright-large {
+        display: block;
+    }
+
+    .discover div:hover{
+        -moz-box-shadow: 0 0 10px #ccc;
+        -webkit-box-shadow: 0 0 10px #ccc;
+        box-shadow: 0 0 10px #ccc;
+      }
+}

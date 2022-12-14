@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="description" content="Bountiful Foods">
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="css/small.css">
+    <link rel="stylesheet" href="css/medium.css">
+    <link rel="stylesheet" href="css/large.css">
+    <script defer src="js/hamburger.js"></script>
+    <script defer src="js/weather.js"></script>
+    <title>Bountiful Foods</title>
+</head>
+<body onload="showLastModified()">
+    <header>
+        <div id="logo">
+            <a href="index.html"><img src="images/berries.webp" alt="Logo"></a>
+        </div>
+        <a href="#" id="hamburger">&#9776;</a>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="fresh.html">Fresh</a></li>
+                <li><a href="aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <section class="socials">
+            <a href="https://twitter.com/i/flow/login"><img src="images/twitter.webp" alt="Twitter"></a>
+            <a href="https://www.instagram.com/accounts/login/"><img src="images/instagram.webp" alt="Instagram"></a>
+            <a href="https://www.youtube.com/account"><img src="images/youtube.webp" alt="Youtube"></a>
+        </section>
+        
+    </header>
+
+    <section class="date"></section>
+
+    <main class="home">
+        <h1>Bountiful Foods</h1>
+        <section id="intro">
+            <h2>Welcome To Carlsbad, California</h2>
+            <p>Carlsbad is a city near San Diego, in California. 
+                It's known for Tamarack Surf Beach, backed by the Carlsbad Sea Wall, 
+                and secluded South Carlsbad State Beach.</p>
+        </section>
+        <section id="weather">
+            <h2>Weather</h2>
+            <div id="weather_top"></div>
+                <div>
+                    <img src="#" alt="Icon of the current weather" id="iconWeather">
+                    <div id="currentWeather">
+                      <p>Temperature: <span id="temp"></span>°F</p>
+                      <p>Description: <span id="curr"></span></p>
+                      <p>Humidity: <span id="hum"></span>%</p>
+                    </div>
+                  </div>
+                </section>
+            <section id="dayForecast">
+                  <table>
+                    <tr>
+                      <th><span id="nameDay1"></span></th>
+                      <td><img src="#" alt="image forecast" id="imgForecast2"></td>
+                      <td><span id="tempForecast2"></span>°F</td>
+
+
+                      <th><span id="nameDay2"></span></th>
+                      <td><img src="#" alt="image forecast" id="imgForecast10"></td>
+                      <td><span id="tempForecast10"></span>°F</td>
+
+
+                      <th><span id="nameDay3"></span></th>
+                      <td><img src="#" alt="image forecast" id="imgForecast18"></td>
+                      <td><span id="tempForecast18"></span>°F</td>
+                      </tr>
+                  </table>
+                </section>
+        
+
+        <section id="join">
+            <h2>Make Your Own Drink!</h2>
+            <p>Do you want to make your customized drink with the freshest produce near you? Try it out to see what fun drinks you can make today!</p>
+            <a href="fresh.html"><button>Try Now!</button></a>
+        </section>
+  
+    </main>
+
+    <footer>
+        <section id="about">
+            <img src="images/favicon.ico" alt="Logo">
+            <div id="address">
+                <h3>Visit Us</h3>
+                <p>1802 E POINTE AVE </p>
+                <p>CARLSBAD CA 92008-3774 USA</p>
+            </div>
+            <div id="contact">
+                <h3>Contact info</h3>
+                <p>contact@BountifulFoods.com</p>
+                <p>(800)555-5555</p>
+            </div>
+        </section>
+        <section id="copyright">
+            <p>&copy; <span id="copyrightYear"></span> Bountiful Foods | Angela Slinker | WDD230 Final</p>
+            <p>This page was last modified on <span id="lastModified"></span></p>
+        </section>
+    </footer>
+</body>
+
+</html>
